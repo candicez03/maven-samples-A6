@@ -25,7 +25,7 @@ pipeline {
 
     stage('cleanup bisect') {
       steps {
-        sh 'git bisect rest'
+        sh 'git bisect reset'
       }
     }
 
